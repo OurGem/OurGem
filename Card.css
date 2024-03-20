@@ -5,7 +5,9 @@
     font-family: "Vibur", cursive;
 }
 
-
+body{
+    background-color: rgb(0, 0, 0);
+}
 
 .card {
     width: 640px;
@@ -38,8 +40,8 @@
 }
 
 .inside {
-    background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
-    line-height: 3;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    line-height: 1;
     padding: 0 20px;
     text-align: center;
     display: flex;
@@ -69,7 +71,7 @@
 }
 
 .front {
-    background-color: #ffffff;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 .front img{
@@ -82,7 +84,7 @@
 
 .back {
     transform: rotateY(180deg);
-    background: linear-gradient(to left, #e7e7e7, #ffffff 30%);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 .outside p {
@@ -113,14 +115,10 @@
 }
 
 .inside p{
-    font-size: 17px;
+    font-size: 25px;
 }
 
 
 
-body{
-    background: linear-gradient(60deg,
-                rgba(84, 58, 183, 1) 0%,
-                rgba(0, 172, 193, 1) 100%);
-}
+
 
